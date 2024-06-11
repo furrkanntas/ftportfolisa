@@ -560,18 +560,6 @@ video {
   width: 100%;
 }
 
-@media (min-width: 361px){
-  .container{
-    max-width: 361px;
-  }
-}
-
-@media (min-width: 389px){
-  .container{
-    max-width: 389px;
-  }
-}
-
 @media (min-width: 400px){
   .container{
     max-width: 400px;
@@ -823,10 +811,6 @@ video {
 
 .pb-3{
   padding-bottom: 0.75rem;
-}
-
-.pt-80{
-  padding-top: 20rem;
 }
 
 .text-center{
@@ -1102,28 +1086,6 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-@media (min-width: 361px){
-  .xxs\:pt-96{
-    padding-top: 24rem;
-  }
-}
-
-@media (min-width: 389px){
-  .xfts\:pt-48{
-    padding-top: 12rem;
-  }
-
-  .xfts\:pt-96{
-    padding-top: 24rem;
-  }
-}
-
-@media (min-width: 400px){
-  .xs\:pt-20{
-    padding-top: 5rem;
-  }
-}
-
 @media (min-width: 640px){
   .sm\:w-60{
     width: 15rem;
@@ -1222,5 +1184,68 @@ video {
   .lg\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+}
+
+@media (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2){
+  .iphonexr\:bg-cyan-400{
+    --tw-bg-opacity: 1;
+    background-color: rgb(34 211 238 / var(--tw-bg-opacity));
+  }
+
+  .iphonexr\:pt-10{
+    padding-top: 2.5rem;
+  }
+
+  .iphonexr\:pt-96{
+    padding-top: 24rem;
+  }
+}
+
+@media (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2){
+  .iphoneSE\:pt-96{
+    padding-top: 24rem;
+  }
+}
+
+@media (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
+  .iphoneX\:pt-40{
+    padding-top: 10rem;
+  }
+
+  .iphoneX\:pt-52{
+    padding-top: 13rem;
+  }
+
+  .iphoneX\:pt-56{
+    padding-top: 14rem;
+  }
+
+  .iphoneX\:pt-60{
+    padding-top: 15rem;
+  }
+}
+
+@media (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3){
+  .iphone12pro\:pt-96{
+    padding-top: 24rem;
+  }
+
+  .iphone12pro\:pt-40{
+    padding-top: 10rem;
+  }
+
+  .iphone12pro\:pt-48{
+    padding-top: 12rem;
+  }
+
+  .iphone12pro\:pt-52{
+    padding-top: 13rem;
+  }
+}
+
+@media (min-width: 400px){
+  .xs\:pt-20{
+    padding-top: 5rem;
   }
 }  
