@@ -1188,15 +1188,6 @@ video {
 }
 
 @media (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2){
-  .iphonexr\:bg-cyan-400{
-    --tw-bg-opacity: 1;
-    background-color: rgb(34 211 238 / var(--tw-bg-opacity));
-  }
-
-  .iphonexr\:pt-10{
-    padding-top: 2.5rem;
-  }
-
   .iphonexr\:pt-96{
     padding-top: 24rem;
   }
@@ -1209,16 +1200,24 @@ video {
 }
 
 @media (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
-  .iphoneX\:pt-40{
-    padding-top: 10rem;
+  .iphoneX\:mt-96{
+    margin-top: 24rem;
   }
 
-  .iphoneX\:pt-52{
-    padding-top: 13rem;
+  .iphoneX\:mt-48{
+    margin-top: 12rem;
   }
 
-  .iphoneX\:pt-56{
-    padding-top: 14rem;
+  .iphoneX\:mt-36{
+    margin-top: 9rem;
+  }
+
+  .iphoneX\:mt-20{
+    margin-top: 5rem;
+  }
+
+  .iphoneX\:mt-32{
+    margin-top: 8rem;
   }
 
   .iphoneX\:pt-60{
@@ -1227,18 +1226,6 @@ video {
 }
 
 @media (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3){
-  .iphone12pro\:pt-96{
-    padding-top: 24rem;
-  }
-
-  .iphone12pro\:pt-40{
-    padding-top: 10rem;
-  }
-
-  .iphone12pro\:pt-48{
-    padding-top: 12rem;
-  }
-
   .iphone12pro\:pt-52{
     padding-top: 13rem;
   }
