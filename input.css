@@ -32,6 +32,10 @@
   @apply border-2 border-green-700 shadow-lg border-solid rounded-3xl;
 }
 
+.borderftXS {
+  @apply border-2 border-green-700 shadow-lg border-dashed rounded-3xl;
+}
+
 .icon {
     @apply w-6 h-6;
 }

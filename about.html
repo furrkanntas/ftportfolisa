@@ -9,7 +9,7 @@
 </head>
 
 <body class="bg-gradient-custom">
-    <main class="w-screen h-screen font-body flex flex-col">
+    <main class="w-fit h-screen font-body flex flex-col">
         <!-- *********************************** OffScren NAVBAR START *********************************** -->
         <div class="hidden lg:block container mx-auto px-4 sm:px-6 lg:px-8 py-10">
             <nav class="flex flex-row justify-between">
@@ -69,64 +69,61 @@
         </div>
         <!-- *********************************** Hamburger END *********************************** -->
         <!-- *********************************** MAIN START *********************************** -->
-        <main class="flex flex-col items-center mx-auto gap-4 lg:gap-20 lg:max-w-[80%] bg-teal-400">
-            <div class="flex flex-col justify-center items-center mx-auto">
+        <section class="flex flex-col mx-auto gap-4 lg:gap-20 lg:max-w-[80%]">
+            <div class="flex flex-col items-center">
                 <p class="font-semibold">Explore</p>
                 <h1 class="text-4xl font-bold">About Me</h1>
             </div>
-            <section class="grid grid-cols-1 lg:grid-cols-12 gap-4 max-w-[80%]">
-                <div class="lg:col-span-4 flex justify-center items-start bg-orange-400">
+            <section class="grid grid-cols-1 mx-auto xl:grid-cols-12 gap-4 max-w-[80%] lg:max-w-fit">
+                <div class="xl:col-span-4 flex justify-center items-start">
                     <img src="ft-1.jpg" alt="furkan" class="w-48 sm:w-60 lg:w-72 borderft">
                 </div>
                 <!-- *********************************** EXPERIENCE START *********************************** -->
-                <div class="lg:col-span-8 gap-4 bg-purple-400">
-                    <div class="flex flex-col items-center">
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pb-20">
-                            <div class="borderft text-center">
-                                <div class="flex flex-col items-center p-3">
-                                    <img src="./experience.png" class="icon-2" alt="education">
-                                    <h2 class="text-2xl font-bold">Experience</h2>
-                                </div>
-                                <article class="flex justify-center gap-3 pb-3">
-                                    <div class="flex flex-col">
-                                        <h3 class="text-lg font-bold">6+ month</h3>
-                                        <p>Frontend Development</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <!-- *********************************** EXPERIENCE END *********************************** -->
-                            <!-- *********************************** EDUCATION START *********************************** -->
-                            <div class="borderft text-center">
-                                <div class="flex flex-col items-center p-3">
-                                    <img src="./education.png" class="icon-2" alt="education">
-                                    <h2 class="text-2xl font-bold">Education</h2>
-                                </div>
-                                <article class="flex justify-center gap-3 pb-3">
-                                    <div class="flex flex-col">
-                                        <h3 class="text-lg font-semibold">Gazi University Faculty of Architecture</h3>
-                                        <h3 class="text-lg font-semibold">Department of Architecture</h3>
-                                        <p>Bachelor's Degree Graduate</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="col-span-full text-center bg-yellow-400">
-                                As a passionate architect turned front-end developer, I craft digital experiences that
-                                blend
-                                creativity with functionality. With a keen eye for design and a dedication to
-                                user-centric
-                                solutions, I bring ideas to life through code and pixels. Let's build something
-                                extraordinary
-                                together.
-                            </div>
-                        </div>
+                <div class="xl:col-span-8 pb-20">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <article class="borderft text-center">
+                            <section class="flex flex-col items-center p-3">
+                                <img src="./experience.png" class="icon-2" alt="education">
+                                <h2 class="text-2xl font-bold">Experience</h2>
+                            </section>
+                            <section class="flex flex-col pb-3">
+                                <h3 class="text-lg font-bold">6+ month</h3>
+                                <p>Frontend Development</p>
+                            </section>
+                        </article>
+                        <!-- *********************************** EXPERIENCE END *********************************** -->
+                        <!-- *********************************** EDUCATION START *********************************** -->
+                        <article class="borderft text-center">
+                            <section class="flex flex-col items-center p-3">
+                                <img src="./education.png" class="icon-2" alt="education">
+                                <h2 class="text-2xl font-bold">Education</h2>
+                            </section>
+                            <section class="flex flex-col pb-3">
+                                <h3 class="text-lg font-semibold">Gazi University Faculty of Architecture</h3>
+                                <h3 class="text-lg font-semibold">Department of Architecture</h3>
+                                <p>Bachelor's Degree Graduate</p>
+                            </section>
+                        </article>
+                        <!-- *********************************** EDUCATION END *********************************** -->
                     </div>
+                    <!-- *********************************** TEXT START *********************************** -->
+                    <div class="text-center pt-4">
+                        As a passionate architect turned front-end developer, I craft digital experiences that
+                        blend
+                        creativity with functionality. With a keen eye for design and a dedication to
+                        user-centric
+                        solutions, I bring ideas to life through code and pixels. Let's build something
+                        extraordinary
+                        together.
+                    </div>
+                    <!-- *********************************** TEXT END *********************************** -->
                 </div>
-                <!-- *********************************** EDUCATION END *********************************** -->
             </section>
-        </main>
+        </section>
+        <footer class="flex justify-center items-end h-1/2 pb-5">
+            <div class="text-xs">Copyright &#169; 2024 Furkan Taş</div>
+        </footer>
     </main>
-
-
     <script src="navbar.js"></script>
 </body>
 
